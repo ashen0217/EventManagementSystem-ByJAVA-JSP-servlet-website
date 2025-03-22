@@ -1,0 +1,231 @@
+html {
+    font-family: 'Bahnschrift Light', serif;
+    font-size: 16px;
+}
+
+.alignLeft {
+    float: left;
+}
+
+#header {
+    width: 100%;
+    height: 105px;
+    background-image: url('../Images/Group 1123.png');
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+#header div:first-child > img {
+    height: 90px;
+    width: 230px;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#header div > div > img {
+    height: 50px;
+    width: 50px;
+}
+
+#header div:nth-child(3) {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#header div:nth-child(3) > div:nth-child(3) {
+    margin-left: 39px;
+    margin-top: 45px
+}
+
+#titleBox {
+    width: 230px;
+    height: 37px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    float: left;
+    margin-left: 640px;
+    margin-top: 19px;
+    border: 2px solid white;
+    color: white;
+    padding: 16px 8px 0px 20px;
+    font-size: 19px;
+}
+
+#btnLogin {
+    float: right;
+    color: white;
+    font-size: 20px;
+}
+
+#container {
+    width: 100%;
+}
+
+#sidebar {
+    display: block;
+    width: 13%;
+    height: 100vh;
+    top: 105px;
+    position: fixed;
+    color: white;
+    font-size: 19px;
+    background-color: #393939;
+    z-index: 1;
+}
+
+#sidebar > div {
+    margin: 0px 5px 0px 5px;
+    padding: 8px;
+    border-bottom: 2px solid #6f6f6f;
+    cursor: pointer;
+}
+
+#sidebar > div:hover {
+    font-size: 21px;
+}
+
+#sidebar > div:first-child {
+    margin-top: 1px;
+    border-top: 2px solid #6f6f6f;
+}
+
+#sidebarSelected {
+    border-left: 3px solid #ffcc03;
+    color: #ffcc03;
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+#content {
+    width: 87%;
+    margin-left: 13%;
+    margin-top: 150px;
+    min-height: calc(100vh - (158px + 150px));
+}
+
+#footer {
+    width: 100%;
+    height: 158px;
+    color: white;
+    background-image: url('../Images/Group 1312.png');
+    background-size: cover;
+    font-size: 16px;
+    z-index: 99;
+    position: absolute;
+}
+
+input, select {
+    border-radius: 8px;
+    padding: 7px;
+    border: 1px solid #a0a0a0;
+    font-size: 15px;
+}
+
+button {
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Bahnschrift Light', serif;
+    font-weight: bold;
+    padding: 7px 25px 6px 25px;
+}
+
+.btnRed {
+    background-color: #ff514d;
+    border: 1px solid #ff514d;
+    color: white;
+}
+
+.btnOrange {
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+}
+
+.btnWhite {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+table {
+    width: 100%;
+}
+
+tr:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+tr:nth-child(1) {
+    background-color: #dadada;
+    font-weight: bold;
+}
+
+table, tr, td {
+    border: 1px solid #b9b9b9;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:nth-child(1) td {
+    text-align: center;
+}
+
+tr td:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+
+.pagination {
+    margin-top: 20px;
+    float: right;
+    margin-right: 10px
+}
+
+.pagination > div {
+    float: left;
+    border-top: 1px solid #afafaf;
+    border-bottom: 1px solid #afafaf;
+    border-right: 1px solid #afafaf;
+    padding: 8px 15px 5px 15px;
+    cursor: pointer;
+    color: #0791cb;
+}
+
+.pagination > div:first-child {
+    border-left: 1px solid #afafaf;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px
+}
+
+.pagination > div:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px
+}
+
+.setHorizontalCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.setVerticalCenter {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bookImg {
+    margin-top: 10px;
+    height: 100px;
+    width: 75px;
+}
+#frmm
+{
+	background-color:#F3F3F3;
+}
+

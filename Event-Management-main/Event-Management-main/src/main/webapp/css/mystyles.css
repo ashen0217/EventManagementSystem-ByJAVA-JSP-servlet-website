@@ -1,0 +1,128 @@
+#logtext {
+    border: 2px solid #000000;
+    width: 500px;
+    padding: 60px 40px 60px 40px;
+    border-radius: 20px;
+    margin: 30px 50px 80px 30px;
+}
+
+#logtextfeed {
+    border: 2px solid #000000;
+    width: 500px;
+    padding: 35px 40px 35px 40px;
+    border-radius: 20px;
+    margin: 150px 50px 50px 150px;
+}
+
+.hthree {
+    font-size: 25px;
+    color: #b97700;
+    border-bottom: 3px solid orange;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.para1 {
+    width: 100%;
+    margin-left: 240px; 
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+}
+
+fieldset {
+	background-color:white;
+	display: block;
+    border: 2px solid #000000;
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 240px ;
+}
+
+legend {
+	background-color: #461f03;
+	color: orange;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.select {
+	border-radius: 12px;
+	width: 90px;
+	height: 25px;
+	padding-left: 16px;
+}
+
+.text {
+	padding: 5px;
+	margin: 4px;
+}
+
+#comment {
+    border-radius: 20px;
+}
+
+.link:hover {
+    color: rgb(65, 7, 7);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bookbutn {
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 185px;
+    height: 95px;
+    background-color: rgb(41, 27, 4);
+    color: palegoldenrod;
+}
+
+.bookbutn:hover {
+    font-size: 22px;
+    color: black;
+    background-color: orange;
+}
+
+#image1 {
+    border: 3px solid rgb(41, 27, 4);
+	border-radius: 6px;
+	padding: 5px;
+	width: 170px;
+	height: 215px;
+}
+
+#bookpara {
+    float: right;
+    width: 65%;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    padding: 20px 20px 10px 20px;
+    letter-spacing: 2px;
+}
+
+.submitbtn {
+	background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+
+#delete {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    width: 100px;
+}
+
+#delete:hover {
+	background-color: red;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
